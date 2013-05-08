@@ -1,1 +1,2 @@
 instructor: kris hopkins
+kris.hopkins@sait.ca
