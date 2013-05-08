@@ -1,2 +1,258 @@
 instructor: kris hopkins
 kris.hopkins@sait.ca
+
+register for university developer program.
+access to all of the wwdc videos.
+  * publish up to 100 hours of video.
+
+Acronym soup:
+* OTA (over the air) download.
+
+
+xcodeproj - This is the xcode project.
+
+Why is there NS in front of log? 
+Objective C was created by the company NeXT. NeXT first introduced their
+object-oriented operating system, called NeXTSTEP, in the late 80s. Many
+of the classes you will see in Objective-C still have NS in front of
+them as a reference to Next Step.
+
+Why is there a symbol @ in front of the string we are logging?
+Objective-C is a strict superset of C. This means you can compile any C
+code in an Objective-C project. In Objective-C we never use C Strings,
+we always use object oriented strings, called NSStrings. The @ symbol is
+a heads up to the compiler that what is coming next is an Objective-C
+NSString and not a C string.
+
+## Objective-C Primitive Data Types
+
+There are 5 primitive datatypes in Objective-C:
+
+1. int - integer
+2. float - floating point number
+3. double - double precision floating point number
+4. char - a single character
+5. BOOL - YES or NO
+
+Everything else is a Class data type.
+
+## Objective-C Variables
+
+* variables are used to identify a value.
+* variables are always strongly typed.
+* every variable must be one data type only and must be declared.
+
+{% highlight objective-c %}
+  int myInt;
+  myInt = 5;
+  int myInt = 5;
+{% endhighlight %}
+
+### Format Specifiers
+
+* %d - int
+* %f - float, double
+* %c - char
+* %@ - any object e.g NSString
+
+* Note that when outputting the value for a BOOL data type use %d to get
+  the int value. 0 for NO and 1 for YES
+
+### NSString
+
+All objects use pointser. A pointer is a variable that holds a reference
+to an address in memory instead of an actual value. The address in
+memory holds the actual value that has been assigned.
+
+{% highlight objc %}
+
+  NSString * myString = @"Hello";
+
+  NSLog(@"What the what? %@", myString);
+
+{% endhighlight %}
+
+### Arithmetic Operators
+
+* + Add
+* - Subtract
+* * Multiply
+* / divide
+* % remainder (modulus)
+* = assignment
+* += add R to L, then assign to L
+* -= subtract R from L, then assign to L
+* *= multiply L by R, then assign to L
+* /= divide R into L, then assign result to L
+* %= L mod B, then assign to L
+* ++ add 1
+* -- subtract
+
+### Relational Operators
+
+Work same way they do in other C-based languages.
+
+* == equal to
+* != not equal to
+* < less than
+* <= less than or equal to
+* > greater than
+* >= greater than or equal to
+
+### Logical Operators
+
+All logical operators work exactly the same way they do in other C-based
+languages:
+
+* && and
+* || or
+* ! not
+
+### Custom classes
+
+NSObject is the top level class and parent class of all other classes in
+Objective-C.
+
+Objective-C classes contain two files. The first is the interface file,
+identified by the .h suffix. This can also be called the "header" file
+(h = header). The second is the implementation file, identified by a .m
+suffix.
+
+The interface file contains a declaration of the elements of a class
+that other classes can see. The implementation file contains all the
+actual content for the class.
+
+All of the declarations inside an interface file are contains within the
+@interface and @end keywords.
+
+All of the content inside an implementation file is contained within the
+@implementation and @end keywords.
+
+#### Interface
+
+{% highlight objc linenos %}
+
+  #import <Foundation/Foundation.h>
+  @interface Person : NSObject
+  @end
+
+{% endhighlight %}
+
+1. Preprocessor statement. Imports the Foundation framework so we have
+   access to the build Objective-C classes such as NSObject.
+2. Shows that this is an interface for Person.
+3. Closes the interface section of the file.
+
+#### Implementation
+
+{% highlight obj linenos %}
+
+#import "Person.h"
+@implementation Person
+@end
+
+{% endhighlight %}
+
+1. Import our header file so our implementation file can see it.
+2. begin implementation section of the file, and states the name of the classes.
+3. close the implementation.
+
+@property keyword tells the compiler that we want to create a property.
+strong and nonatomic keywords have to do with memory management and
+we'll talk about them later.
+
+{% highlight obj %}
+
+  Person * newPerson = [Person new];
+
+{% endhighlight %}
+
+Create a new instance of Person. This is like new Person() in other
+languages. Instead of "calling a method" we are "sending a message".
+
+Sending the new message to the Person class will work, but you'll rarely
+see it this way. It is much more common to see the instantiation of the
+object like this:
+
+
+{% highlight obj %}
+
+  Person * newPerson = [[Person alloc] init];
+
+{% endhighlight %}
+
+This breaks the new message into two parts. First we allocate memory for
+our object (alloc), then we initialize it by calling the object's
+initialization message (init). 
+
+Many objective c classes have many different init messages that do
+different things and pass in different arguments.
+
+{% highlight obj %}
+
+  NSString * newString = [[NSString alloc] initWithFormat:@"%@", @"my text"];
+
+{% endhighlight %}
+
+Here is how you set and get our firstName property:
+
+{% highlight obj %}
+
+  [newPerson setFirstName:@"Mo"];
+  newPerson.firstName = @"Mo";
+  [newPerson firstName]
+  newPerson.firstName;
+
+{% endhighlight %}
+
+### Methods (Messages)
+
+{% highlight objc %}
+
+  -(void) doSomething
+  {
+  }
+
+  -(void) doSomething:(NSString *)firstThing
+  {
+  }
+
+{% endhighlight %}
+
+* (+) class method
+* (-) instance method
+* (void) return type
+
+* A colon is required if there is at least one argument.
+* The data type must be stated.
+* We assign a name to each argument.
+
+If you want to be able to call your method from other classes, we need
+to declare it in our interface (header) file:
+
+### Public and Private
+Any property declared in the .h file is public. To make it private, put
+it in an @interface block above the @implementation block in the .m
+file, like this:
+
+{% highlight objc %}
+
+  @interface Person()
+  @property (strong, nonatomic) NSString * myPrivateString;
+  @end
+
+{% endhighlight %}
+
+Any method declared in the .h file is public. To make a method private,
+simple do not declare it in the .h file.
+
+### Strong/Weak References
+
+A *strong* reference to an object is one where the memory is reserved (and
+the object stays alive) until we don't need it any more. This is the
+default.
+
+A *weak* reference to an object is one where the memory is reserved only
+until all other strong pointers stop pointing to it strongly.
+
+We will almost always use a strong reference.
