@@ -13,7 +13,7 @@ int main(int argc, const char * argv[])
 {
 
     @autoreleasepool {
-        
+
         // insert code here...
         Person * person = [[Person alloc] init];
         [person setFirstName:@"Mo"];
@@ -21,9 +21,9 @@ int main(int argc, const char * argv[])
         NSLog(@"Hello, World! %@ %@", person.firstName, person.lastName);
         NSLog(@"%@", [person putFirstAndLastTogether:person.firstName]);
         NSLog(@"%@", [person theTruth]);
-        NSLog(@"%@", [person tellMeSomethingIDontKnow]);        
+        NSLog(@"%@", [person tellMeSomethingIDontKnow]);
         [person change:@"Mo" last_name:@"Ka" age:29];
-        NSLog(@"%@", [person tellMeSomethingIDontKnow]);        
+        NSLog(@"%@", [person tellMeSomethingIDontKnow]);
     }
     return 0;
 }
