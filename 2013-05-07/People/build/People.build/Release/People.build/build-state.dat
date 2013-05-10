@@ -1,133 +1,0 @@
-TPeople
-v5
-r1
-cCheck dependencies
-cProcessPCH /var/folders/n7/bttmw9gs4g90pzfwy69kd0km0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/People-Prefix-gattbpfcosdiopbjysemzsbowxqm/People-Prefix.pch.pth People/People-Prefix.pch normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC build/People.build/Release/People.build/Objects-normal/x86_64/Person.o /Users/mo/development/sait/ios/2013-05-07/People/People/Person.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC build/People.build/Release/People.build/Objects-normal/x86_64/main.o /Users/mo/development/sait/ios/2013-05-07/People/People/main.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cLd /Users/mo/development/sait/ios/2013-05-07/People/build/Release/People normal x86_64
-cGenerateDSYMFile /Users/mo/development/sait/ios/2013-05-07/People/build/Release/People.dSYM /Users/mo/development/sait/ios/2013-05-07/People/build/Release/People
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk
-c00000000516F272600000000000000AA
-t1366239014
-s170
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/System/Library/Frameworks/Foundation.framework/Foundation
-c000000005149D76300000000000C4BAC
-t1363793763
-s805804
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
-c0000000050FECDAC00000000000015F7
-t1358876076
-s5623
-
-N/Users/mo/development/sait/ios/2013-05-07/People/People/People-Prefix.pch
-c000000005189AE6C0000000000000099
-t1367977580
-s153
-i<Foundation/Foundation.h>
-
-N/Users/mo/development/sait/ios/2013-05-07/People/People/Person.h
-c00000000518C55E30000000000000208
-t1368151523
-s520
-
-N/Users/mo/development/sait/ios/2013-05-07/People/People/Person.m
-c00000000518C55F2000000000000031B
-t1368151538
-s795
-
-N/Users/mo/development/sait/ios/2013-05-07/People/People/main.m
-c00000000518C56550000000000000322
-t1368151637
-s802
-
-N/Users/mo/development/sait/ios/2013-05-07/People/build/People.build/Release/People.build/Objects-normal/x86_64/People.LinkFileList
-c00000000518C54C100000000000000EE
-t1368151233
-s238
-
-N/Users/mo/development/sait/ios/2013-05-07/People/build/People.build/Release/People.build/Objects-normal/x86_64/Person.o
-t1368151540
-s15300
-
-N/Users/mo/development/sait/ios/2013-05-07/People/build/People.build/Release/People.build/Objects-normal/x86_64/main.o
-t1368151635
-s6384
-
-N/Users/mo/development/sait/ios/2013-05-07/People/build/Release/People
-t1368151635
-s15932
-
-N/Users/mo/development/sait/ios/2013-05-07/People/build/Release/People.dSYM
-t1368151635
-s102
-
-N/var/folders/n7/bttmw9gs4g90pzfwy69kd0km0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/People-Prefix-gattbpfcosdiopbjysemzsbowxqm/People-Prefix.pch.pth
-t1368151233
-s9382900
-
-CCheck dependencies
-r0
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependenciese4830ed68d3cb741^f17f1bd68d3cb741^---0#1#0#--18"Check dependencies36"63154975-E244-4005-AE0D-712D1E6E4B9D-
-
-CCompileC build/People.build/Release/People.build/Objects-normal/x86_64/Person.o /Users/mo/development/sait/ios/2013-05-07/People/People/Person.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s389844340.038382
-e389844340.164633
-r1
-xCompileC
-xbuild/People.build/Release/People.build/Objects-normal/x86_64/Person.o
-x/Users/mo/development/sait/ios/2013-05-07/People/People/Person.m
-xnormal
-xx86_64
-xobjective-c
-xcom.apple.compilers.llvm.clang.1_0.compiler
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection72"Compile /Users/mo/development/sait/ios/2013-05-07/People/People/Person.m00020a748d3cb741^2d262a748d3cb741^---0#0#0#-19%DVTDocumentLocation2@80"file://localhost/Users/mo/development/sait/ios/2013-05-07/People/People/Person.m0000000000000000^3083"CompileC build/People.build/Release/People.build/Objects-normal/x86_64/Person.o People/Person.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/mo/development/sait/ios/2013-05-07/People    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch x86_64 -fmessage-length=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -Os -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -mmacosx-version-min=10.8 -g -fvisibility=hidden -Wno-sign-conversion -iquote /Users/mo/development/sait/ios/2013-05-07/People/build/People.build/Release/People.build/People-generated-files.hmap -I/Users/mo/development/sait/ios/2013-05-07/People/build/People.build/Release/People.build/People-own-target-headers.hmap -I/Users/mo/development/sait/ios/2013-05-07/People/build/People.build/Release/People.build/People-all-target-headers.hmap -iquote /Users/mo/development/sait/ios/2013-05-07/People/build/People.build/Release/People.build/People-project-headers.hmap -I/Users/mo/development/sait/ios/2013-05-07/People/build/Release/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/mo/development/sait/ios/2013-05-07/People/build/People.build/Release/People.build/DerivedSources/x86_64 -I/Users/mo/development/sait/ios/2013-05-07/People/build/People.build/Release/People.build/DerivedSources -F/Users/mo/development/sait/ios/2013-05-07/People/build/Release -include /var/folders/n7/bttmw9gs4g90pzfwy69kd0km0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/People-Prefix-gattbpfcosdiopbjysemzsbowxqm/People-Prefix.pch -MMD -MT dependencies -MF /Users/mo/development/sait/ios/2013-05-07/People/build/People.build/Release/People.build/Objects-normal/x86_64/Person.d --serialize-diagnostics /Users/mo/development/sait/ios/2013-05-07/People/build/People.build/Release/People.build/Objects-normal/x86_64/Person.dia -c /Users/mo/development/sait/ios/2013-05-07/People/People/Person.m -o /Users/mo/development/sait/ios/2013-05-07/People/build/People.build/Release/People.build/Objects-normal/x86_64/Person.o36"9A03CFA5-6DFD-4205-BBA8-DFFA25F6B4B4-
-
-CCompileC build/People.build/Release/People.build/Objects-normal/x86_64/main.o /Users/mo/development/sait/ios/2013-05-07/People/People/main.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s389844438.119292
-e389844438.146375
-r1
-xCompileC
-xbuild/People.build/Release/People.build/Objects-normal/x86_64/main.o
-x/Users/mo/development/sait/ios/2013-05-07/People/People/main.m
-xnormal
-xx86_64
-xobjective-c
-xcom.apple.compilers.llvm.clang.1_0.compiler
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection70"Compile /Users/mo/development/sait/ios/2013-05-07/People/People/main.md5b11ed68d3cb741^607825d68d3cb741^---0#0#0#-19%DVTDocumentLocation2@78"file://localhost/Users/mo/development/sait/ios/2013-05-07/People/People/main.m0000000000000000^3071"CompileC build/People.build/Release/People.build/Objects-normal/x86_64/main.o People/main.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/mo/development/sait/ios/2013-05-07/People    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch x86_64 -fmessage-length=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -Os -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -mmacosx-version-min=10.8 -g -fvisibility=hidden -Wno-sign-conversion -iquote /Users/mo/development/sait/ios/2013-05-07/People/build/People.build/Release/People.build/People-generated-files.hmap -I/Users/mo/development/sait/ios/2013-05-07/People/build/People.build/Release/People.build/People-own-target-headers.hmap -I/Users/mo/development/sait/ios/2013-05-07/People/build/People.build/Release/People.build/People-all-target-headers.hmap -iquote /Users/mo/development/sait/ios/2013-05-07/People/build/People.build/Release/People.build/People-project-headers.hmap -I/Users/mo/development/sait/ios/2013-05-07/People/build/Release/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/mo/development/sait/ios/2013-05-07/People/build/People.build/Release/People.build/DerivedSources/x86_64 -I/Users/mo/development/sait/ios/2013-05-07/People/build/People.build/Release/People.build/DerivedSources -F/Users/mo/development/sait/ios/2013-05-07/People/build/Release -include /var/folders/n7/bttmw9gs4g90pzfwy69kd0km0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/People-Prefix-gattbpfcosdiopbjysemzsbowxqm/People-Prefix.pch -MMD -MT dependencies -MF /Users/mo/development/sait/ios/2013-05-07/People/build/People.build/Release/People.build/Objects-normal/x86_64/main.d --serialize-diagnostics /Users/mo/development/sait/ios/2013-05-07/People/build/People.build/Release/People.build/Objects-normal/x86_64/main.dia -c /Users/mo/development/sait/ios/2013-05-07/People/People/main.m -o /Users/mo/development/sait/ios/2013-05-07/People/build/People.build/Release/People.build/Objects-normal/x86_64/main.o36"827D4144-0BF8-4987-9424-6F6219C7C966-
-
-CGenerateDSYMFile /Users/mo/development/sait/ios/2013-05-07/People/build/Release/People.dSYM /Users/mo/development/sait/ios/2013-05-07/People/build/Release/People
-s389844438.177634
-e389844438.187123
-r1
-xGenerateDSYMFile
-x/Users/mo/development/sait/ios/2013-05-07/People/build/Release/People.dSYM
-x/Users/mo/development/sait/ios/2013-05-07/People/build/Release/People
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection83"Generate /Users/mo/development/sait/ios/2013-05-07/People/build/Release/People.dSYM29942dd68d3cb741^8ee72fd68d3cb741^---0#0#0#-19%DVTDocumentLocation2@91"file://localhost/Users/mo/development/sait/ios/2013-05-07/People/build/Release/People.dSYM/0000000000000000^368"GenerateDSYMFile build/Release/People.dSYM build/Release/People    cd /Users/mo/development/sait/ios/2013-05-07/People    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/dsymutil /Users/mo/development/sait/ios/2013-05-07/People/build/Release/People -o /Users/mo/development/sait/ios/2013-05-07/People/build/Release/People.dSYM36"9DEA64E6-FF36-449A-AAD9-F55682A0447C-
-
-CLd /Users/mo/development/sait/ios/2013-05-07/People/build/Release/People normal x86_64
-s389844438.152859
-e389844438.170663
-r1
-xLd
-x/Users/mo/development/sait/ios/2013-05-07/People/build/Release/People
-xnormal
-xx86_64
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection74"Link /Users/mo/development/sait/ios/2013-05-07/People/build/Release/Peoplecd3a27d68d3cb741^60b02bd68d3cb741^---0#0#0#--777"Ld build/Release/People normal x86_64    cd /Users/mo/development/sait/ios/2013-05-07/People    setenv MACOSX_DEPLOYMENT_TARGET 10.8    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -L/Users/mo/development/sait/ios/2013-05-07/People/build/Release -F/Users/mo/development/sait/ios/2013-05-07/People/build/Release -filelist /Users/mo/development/sait/ios/2013-05-07/People/build/People.build/Release/People.build/Objects-normal/x86_64/People.LinkFileList -mmacosx-version-min=10.8 -fobjc-arc -fobjc-link-runtime -framework Foundation -o /Users/mo/development/sait/ios/2013-05-07/People/build/Release/People36"617617C0-3EF7-4F79-81FB-B9E3B28DE2AE-
-
-CProcessPCH /var/folders/n7/bttmw9gs4g90pzfwy69kd0km0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/People-Prefix-gattbpfcosdiopbjysemzsbowxqm/People-Prefix.pch.pth People/People-Prefix.pch normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s389844033.034094
-e389844033.565172
-r1
-xProcessPCH
-x/var/folders/n7/bttmw9gs4g90pzfwy69kd0km0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/People-Prefix-gattbpfcosdiopbjysemzsbowxqm/People-Prefix.pch.pth
-xPeople/People-Prefix.pch
-xnormal
-xx86_64
-xobjective-c
-xcom.apple.compilers.llvm.clang.1_0.compiler
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection35"Precompile People/People-Prefix.pch8fde08418c3cb741^3ab090418c3cb741^---0#0#0#-19%DVTDocumentLocation2@89"file://localhost/Users/mo/development/sait/ios/2013-05-07/People/People/People-Prefix.pch0000000000000000^3147"ProcessPCH /var/folders/n7/bttmw9gs4g90pzfwy69kd0km0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/People-Prefix-gattbpfcosdiopbjysemzsbowxqm/People-Prefix.pch.pth People/People-Prefix.pch normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/mo/development/sait/ios/2013-05-07/People    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c-header -arch x86_64 -fmessage-length=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -Os -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -mmacosx-version-min=10.8 -g -fvisibility=hidden -Wno-sign-conversion -iquote /Users/mo/development/sait/ios/2013-05-07/People/build/People.build/Release/People.build/People-generated-files.hmap -I/Users/mo/development/sait/ios/2013-05-07/People/build/People.build/Release/People.build/People-own-target-headers.hmap -I/Users/mo/development/sait/ios/2013-05-07/People/build/People.build/Release/People.build/People-all-target-headers.hmap -iquote /Users/mo/development/sait/ios/2013-05-07/People/build/People.build/Release/People.build/People-project-headers.hmap -I/Users/mo/development/sait/ios/2013-05-07/People/build/Release/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/mo/development/sait/ios/2013-05-07/People/build/People.build/Release/People.build/DerivedSources/x86_64 -I/Users/mo/development/sait/ios/2013-05-07/People/build/People.build/Release/People.build/DerivedSources -F/Users/mo/development/sait/ios/2013-05-07/People/build/Release --serialize-diagnostics /var/folders/n7/bttmw9gs4g90pzfwy69kd0km0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/People-Prefix-gattbpfcosdiopbjysemzsbowxqm/People-Prefix.pch.dia -c /Users/mo/development/sait/ios/2013-05-07/People/People/People-Prefix.pch -o /var/folders/n7/bttmw9gs4g90pzfwy69kd0km0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/People-Prefix-gattbpfcosdiopbjysemzsbowxqm/People-Prefix.pch.pth -MMD -MT dependencies -MF /var/folders/n7/bttmw9gs4g90pzfwy69kd0km0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/People-Prefix-gattbpfcosdiopbjysemzsbowxqm/People-Prefix.pch.d36"20848BE8-6388-4768-8CE0-1F8F4E692C61-
-
