@@ -1,0 +1,6 @@
+
+task :default => :compile
+
+task :compile do
+  system "xcodebuild | grep error"
+end
