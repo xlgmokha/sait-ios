@@ -8,6 +8,7 @@
 
 #import <Foundation/Foundation.h>
 #import "Person.h"
+#import "Human.m"
 
 int main(int argc, const char * argv[])
 {
@@ -24,6 +25,12 @@ int main(int argc, const char * argv[])
         NSLog(@"%@", [person tellMeSomethingIDontKnow]);
         [person change:@"Mo" last_name:@"Ka" age:29];
         NSLog(@"%@", [person tellMeSomethingIDontKnow]);
+
+
+        Human * human = [Human new];
+        [human setName:@"mo"];
+        NSLog(@"%@", [human name]);
+        NSLog(@"%@", [human sayHello]);
     }
     return 0;
 }
