@@ -32,5 +32,7 @@
 
 -(void)change:(NSString *)first_name last_name:(NSString *)last age:(int)the_age
 {
+  [self setFirstName:first_name];
+  [self setLastName:last];
 }
 @end
