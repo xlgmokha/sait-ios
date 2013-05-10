@@ -15,14 +15,15 @@ int main(int argc, const char * argv[])
     @autoreleasepool {
         
         // insert code here...
-        Person * newPerson = [[Person alloc] init];
-        [newPerson setFirstName:@"Mo"];
-        [newPerson setLastName:@"Khan"];
-        NSLog(@"Hello, World! %@ %@", newPerson.firstName, newPerson.lastName);
-        NSLog(@"%@", [newPerson putFirstAndLastTogether:newPerson.firstName]);
-        NSLog(@"%@", [newPerson theTruth]);
-        
-        NSObject * item;
+        Person * person = [[Person alloc] init];
+        [person setFirstName:@"Mo"];
+        [person setLastName:@"Khan"];
+        NSLog(@"Hello, World! %@ %@", person.firstName, person.lastName);
+        NSLog(@"%@", [person putFirstAndLastTogether:person.firstName]);
+        NSLog(@"%@", [person theTruth]);
+        NSLog(@"%@", [person tellMeSomethingIDontKnow]);        
+        [person change:@"Mo" last_name:@"Ka" age:29];
+        NSLog(@"%@", [person tellMeSomethingIDontKnow]);        
     }
     return 0;
 }

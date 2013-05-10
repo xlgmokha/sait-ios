@@ -24,4 +24,13 @@
 {
     return [[NSString alloc]initWithFormat:@"%@ is the boss!", self.fullName];
 }
+
+-(NSString *)tellMeSomethingIDontKnow
+{
+  return [[NSString alloc] initWithFormat:@"%@ You betta aks somebody!", self.theTruth];
+}
+
+-(void)change:(NSString *)first_name last_name:(NSString *)last age:(int)the_age
+{
+}
 @end

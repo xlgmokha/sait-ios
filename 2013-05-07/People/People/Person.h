@@ -14,4 +14,6 @@
 -(NSString *)putFirstAndLastTogether:(NSString *)first;
 -(NSString *)fullName;
 -(NSString *)theTruth;
+-(NSString *)tellMeSomethingIDontKnow;
+-(void)change:(NSString *)first_name last_name:(NSString *)last age:(int)the_age;
 @end
