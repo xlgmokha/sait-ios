@@ -20,7 +20,9 @@ int main(int argc, const char * argv[])
         [newPerson setLastName:@"Khan"];
         NSLog(@"Hello, World! %@ %@", newPerson.firstName, newPerson.lastName);
         NSLog(@"%@", [newPerson putFirstAndLastTogether:newPerson.firstName]);
-        NSLog(@"%@", [newPerson fullName]);
+        NSLog(@"%@", [newPerson theTruth]);
+        
+        NSObject * item;
     }
     return 0;
 }

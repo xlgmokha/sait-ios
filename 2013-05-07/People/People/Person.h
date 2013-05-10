@@ -13,4 +13,5 @@
 @property (strong, nonatomic) NSString * lastName;
 -(NSString *)putFirstAndLastTogether:(NSString *)first;
 -(NSString *)fullName;
+-(NSString *)theTruth;
 @end

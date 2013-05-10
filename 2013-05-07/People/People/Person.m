@@ -17,7 +17,11 @@
 
 -(NSString *)fullName
 {
-    NSString * result = [[NSString alloc]initWithFormat:@"%@ %@", self.firstName, self.lastName];
-    return result;
+    return [[NSString alloc]initWithFormat:@"%@ %@", self.firstName, self.lastName];
+}
+
+-(NSString *)theTruth
+{
+    return [[NSString alloc]initWithFormat:@"%@ is the boss!", self.fullName];
 }
 @end
