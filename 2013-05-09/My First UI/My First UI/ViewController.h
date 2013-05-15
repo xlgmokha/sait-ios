@@ -7,7 +7,10 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "Data.h"
 
 @interface ViewController : UIViewController
-
+@property (weak, nonatomic) IBOutlet UILabel *firstLabel;
+@property (strong, nonatomic) Data * myData;
+- (IBAction)firstButton:(id)sender;
 @end

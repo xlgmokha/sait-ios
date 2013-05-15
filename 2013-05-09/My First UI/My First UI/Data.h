@@ -10,4 +10,6 @@
 
 @interface Data : NSObject
 
+@property (strong, nonatomic) NSString * strData;
+@property int clickCount;
 @end
