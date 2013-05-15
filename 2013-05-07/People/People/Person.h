@@ -11,6 +11,7 @@
 @interface Person : NSObject
 @property (strong, nonatomic) NSString * firstName;
 @property (strong, nonatomic) NSString * lastName;
+@property int age;
 -(NSString *)putFirstAndLastTogether:(NSString *)first;
 -(NSString *)fullName;
 -(NSString *)theTruth;
