@@ -8,6 +8,8 @@
 
 #import <UIKit/UIKit.h>
 
-@interface FirstViewController : UIViewController
+@class SecondViewController;
 
+@interface FirstViewController : UIViewController
+@property (strong, nonatomic) SecondViewController * mySecondVC;
 @end

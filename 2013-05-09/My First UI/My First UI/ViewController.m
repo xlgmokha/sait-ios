@@ -31,6 +31,6 @@
 
 - (IBAction)firstButton:(id)sender {
     self.myData.clickCount++;
-    self.firstLabel.text = [[self.myData.strData stringByAppendingFormat:@"%d", self.myData.clickCount] stringByAppendingFormat:@" times"];
+    self.firstLabel.text = [[self.myData.strData stringByAppendingFormat:@" %d", self.myData.clickCount] stringByAppendingFormat:@" times"];
 }
 @end

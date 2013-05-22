@@ -7,6 +7,7 @@
 //
 
 #import "FirstViewController.h"
+#import "SecondViewController.h"
 
 @interface FirstViewController ()
 
@@ -18,8 +19,10 @@
 {
     self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
     if (self) {
-        // Custom initialization
+        self.title = @"First";
     }
+    UIBarButtonItem * secondButton = [[UIBarButtonItem alloc] initWithTitle:@"Second" style:UIBarButtonItemStylePlain target:self action:@selector(gotoSecondView:)];
+    self.navigationItem.rightBarButtonItem = secondButton;
     return self;
 }
 
@@ -33,6 +36,17 @@
 {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
+}
+
+- (void) gotoSecondView:(id)sender
+{
+    NSLog(@"Second button works");
+    if (!self.mySecondVC)
+    {
+        self.mySecondVC = [[SecondViewController alloc] initWithNibName:@"SecondViewController" bundle:nil];
+    }
+    
+    [self.navigationController pushViewController:self.mySecondVC animated:YES];
 }
 
 @end

@@ -16,6 +16,10 @@
 		CDE0C293174C4C0F009ED558 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = CDE0C292174C4C0F009ED558 /* Default.png */; };
 		CDE0C295174C4C0F009ED558 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CDE0C294174C4C0F009ED558 /* Default@2x.png */; };
 		CDE0C297174C4C0F009ED558 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CDE0C296174C4C0F009ED558 /* Default-568h@2x.png */; };
+		CDE0C2A0174C4D7E009ED558 /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CDE0C29E174C4D7E009ED558 /* FirstViewController.m */; };
+		CDE0C2A1174C4D7E009ED558 /* FirstViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CDE0C29F174C4D7E009ED558 /* FirstViewController.xib */; };
+		CDE0C2A5174C571D009ED558 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CDE0C2A3174C571D009ED558 /* SecondViewController.m */; };
+		CDE0C2A6174C571D009ED558 /* SecondViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CDE0C2A4174C571D009ED558 /* SecondViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +36,12 @@
 		CDE0C292174C4C0F009ED558 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 		CDE0C294174C4C0F009ED558 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		CDE0C296174C4C0F009ED558 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		CDE0C29D174C4D7E009ED558 /* FirstViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FirstViewController.h; path = ../FirstViewController.h; sourceTree = "<group>"; };
+		CDE0C29E174C4D7E009ED558 /* FirstViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FirstViewController.m; path = ../FirstViewController.m; sourceTree = "<group>"; };
+		CDE0C29F174C4D7E009ED558 /* FirstViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = FirstViewController.xib; path = ../FirstViewController.xib; sourceTree = "<group>"; };
+		CDE0C2A2174C571D009ED558 /* SecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		CDE0C2A3174C571D009ED558 /* SecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		CDE0C2A4174C571D009ED558 /* SecondViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SecondViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,7 +88,13 @@
 		CDE0C286174C4C0F009ED558 /* MultiViewXIBNav */ = {
 			isa = PBXGroup;
 			children = (
+				CDE0C29D174C4D7E009ED558 /* FirstViewController.h */,
+				CDE0C29E174C4D7E009ED558 /* FirstViewController.m */,
+				CDE0C29F174C4D7E009ED558 /* FirstViewController.xib */,
 				CDE0C28F174C4C0F009ED558 /* AppDelegate.h */,
+				CDE0C2A2174C571D009ED558 /* SecondViewController.h */,
+				CDE0C2A3174C571D009ED558 /* SecondViewController.m */,
+				CDE0C2A4174C571D009ED558 /* SecondViewController.xib */,
 				CDE0C290174C4C0F009ED558 /* AppDelegate.m */,
 				CDE0C287174C4C0F009ED558 /* Supporting Files */,
 			);
@@ -154,6 +170,8 @@
 				CDE0C293174C4C0F009ED558 /* Default.png in Resources */,
 				CDE0C295174C4C0F009ED558 /* Default@2x.png in Resources */,
 				CDE0C297174C4C0F009ED558 /* Default-568h@2x.png in Resources */,
+				CDE0C2A1174C4D7E009ED558 /* FirstViewController.xib in Resources */,
+				CDE0C2A6174C571D009ED558 /* SecondViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -166,6 +184,8 @@
 			files = (
 				CDE0C28D174C4C0F009ED558 /* main.m in Sources */,
 				CDE0C291174C4C0F009ED558 /* AppDelegate.m in Sources */,
+				CDE0C2A0174C4D7E009ED558 /* FirstViewController.m in Sources */,
+				CDE0C2A5174C571D009ED558 /* SecondViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -280,6 +300,7 @@
 				CDE0C29C174C4C0F009ED558 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
